@@ -1,0 +1,806 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Apple</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+</head>
+<style>
+    body{
+        background-color: rgba(217, 223, 229, 0.726);
+    }
+    .navbar-nav>li {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 13px;
+
+
+    }
+
+    ul {
+        text-align: center;
+    }
+
+    .heading {
+        margin-left: 25%;
+        padding-top: 2%;
+
+    }
+
+    .black {
+        font-size: 50px;
+        display: inline;
+    }
+
+    .grey {
+        color: grey;
+        font-size: 50px;
+        display: inline;
+    }
+
+    #generic-2 {
+        display: inline;
+        position: absolute;
+        right: 30px;
+        top: 100px;
+
+
+    }
+
+    .carousel-item3 {
+        padding: 60px;
+        margin: 10px;
+
+    }
+    .carousel-item{
+        text-align: center;
+      
+        background-color: grey;
+    }
+    h5, p{
+        color: aliceblue;
+    }
+
+
+
+
+    /* cards */
+   .cards-wrapper{
+    display: flex;
+   }
+   .card{
+    margin: 0.5rem;
+    width: calc(100%/3);
+   }
+   .container-uncle{
+    margin-left: 25%;
+    border: 2px solid gray;
+    margin-right: 42%;
+ 
+   padding: auto;
+   display: inline-block;
+   }
+   h3{
+    position: absolute;
+   padding-top: 2%;
+   padding-left: 2%;
+   }
+   .card-flower{
+  position: relative;
+  left: 60%;
+ position: absolute;
+ 
+  border: 2px solid gray;
+  display: inline-block;
+    
+  
+   }
+   h4{
+   margin-top: 10px;
+   margin-left: 10px;
+    position: absolute;
+   }
+
+.third{
+  position: relative;
+ left: 60%;
+ bottom: 245px;
+ border: 2px solid gray;
+ width: 485px;
+
+}
+a:hover{
+ 
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.over{
+ display: flex;
+  margin-left: 25%;
+}
+.second{
+  border: 2px solid rgb(31, 30, 30);
+  
+}
+
+.card2{
+  width: 800px;
+}
+.card-text{
+  color: black;
+}
+.hi{
+  color: rgb(255, 255, 255);
+  margin-left: 50px;
+}
+.ho{
+  color: rgb(255, 255, 255);
+  margin-left: 600px;
+}
+.he{
+  color: rgb(0, 0, 0);
+  margin-left: 1000px;
+}
+.bro{
+  border-radius: 30px;
+  box-shadow: 2px 2px 2px 2px gray;
+}
+.broo{
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 5px ;
+  margin: 5px;
+
+}
+.vi{
+  color: black;
+  margin-left: 8px;
+}
+.vo{
+  color: rgb(255, 255, 255);
+  margin-left: 600px;
+}
+.vu{
+  color: rgb(255, 255, 255);
+  margin-left: 1100px;
+}
+
+
+
+
+
+/* footer */
+
+#footer .twitter {
+  background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+#footer .linkedin {
+  background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
+  background-repeat: no-repeat;
+  background-position: -78px 0;
+}
+#footer .facebook {
+  background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
+  background-repeat: no-repeat;
+  background-position: -233px 0;
+}
+#footer .skype {
+  background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
+  background-repeat: no-repeat;
+  background-position: -156px 0;
+}
+#footer .flickr {
+  background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
+  background-repeat: no-repeat;
+  background-position: -310px 0;
+}
+#footer a {
+  height: 56px;
+  width: 56px;
+  display: inline-block;
+  margin: 10px;
+}
+
+.bg-dark-1{
+  background-color: #6e5e67;
+background-image: linear-gradient(225deg, #ffffff 0%, #fdfdfd 50%, #f5f5f5 100%);
+ 
+}
+
+
+ 
+</style>
+
+<body>
+
+
+
+    <nav class="sticky-top navbar navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/apple-page.html"><img src="/images/apple (1).png " width="15px" style="padding-bottom: 5px;"
+                    alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">||||</span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Store</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Mac</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">iPad</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">iPhone</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Watch</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">AirPods</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">TV & Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Only on Apple</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Accesories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Support</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img
+                                src="/images/[CITYPNG.COM]White Search Icon Button PNG IMG - 512x512.png" width=15px alt=""></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img src="/images/shopping-bag.png" width="15px" alt=""></a>
+                    </li>
+
+
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br><br><br>
+    <div class="heading">
+        <h1 class="black">Store. </h1>
+        <p class="grey">The beat way to buy the <br> products you love
+        <p>
+
+    </div>
+    <div class="column large-4 small-12  rs-shop-chatstore-section">
+        <div id="generic-2">
+            <div class="rf-shop-chat">
+                <div class="rf-shop-chat-section">
+                    <div class="rf-shop-chaticon-container"><img width="35" height="35" alt=""
+                            src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-chat-specialist-icon-202211_AV1?wid=70&amp;hei=70&amp;fmt=jpeg&amp;qlt=90&amp;.v=1671246164100">
+                    </div>
+                    <div class="rf-shop-chat-container">
+                        <div class="rf-shop-chat-title">Need shopping help?</div>
+                        <div class="rf-shop-chat-content"><a href="#" target="_blank"
+                                class="as-chat-button active as-buttonlink" data-autom="chat-with-a-specialist-link"
+                                data-relatedlink="chat-with-a-specialist"
+                                data-chat-ui="WEB_CHAT_ACTION_GROUP=FASTPASS;">
+                                Ask a Specialist
+                                <span class="a11y"></span>
+                            </a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="rs-shop-neareststore">
+                <div class="as-svgicon-container">
+
+                </div>
+                <div class="rs-shop-neareststore-container">
+                    <div class="rs-shop-neareststore-title"> <img src="/images/apple (2).png" width="15px" alt=""> Visit an
+                        Apple Store</div>
+                    <div class="rs-shop-neareststore-content">
+                        <a href="https://www.apple.com/retail" data-slot-name="generic-2" data-feature-name="Astro Link"
+                            data-display-name="AOS: retail" class="icon icon-after more" target="_blank">Find one near
+                            you<span class="a11y"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- images -->
+    <br><br> <br><br>
+    <div id="carouselExample" class="carousel carasoul-dark slide">
+        <div class="carousel-inner">
+            <div class="carousel-item3 active">
+
+                <img width="130" height="100" alt=""
+                    src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-14-16-mac-nav-202301?wid=400&amp;hei=260&amp;fmt=png-alpha&amp;.v=1670959891635"
+                    srcset="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-14-16-mac-nav-202301?wid=200&amp;hei=130&amp;fmt=png-alpha&amp;.v=1670959891635, https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-14-16-mac-nav-202301?wid=400&amp;hei=260&amp;fmt=png-alpha&amp;.v=1670959891635 2x">
+                <img width="130" height="100" alt=""
+                    src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-iphone-nav-202209_GEO_US?wid=400&amp;hei=260&amp;fmt=png-alpha&amp;.v=1661027785546"
+                    srcset="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-iphone-nav-202209_GEO_US?wid=200&amp;hei=130&amp;fmt=png-alpha&amp;.v=1661027785546, https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-iphone-nav-202209_GEO_US?wid=400&amp;hei=260&amp;fmt=png-alpha&amp;.v=1661027785546 2x">
+
+                <img width="130" height="100" alt=""
+                    src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-ipad-nav-202210?wid=400&amp;hei=260&amp;fmt=png-alpha&amp;.v=1664912135437"
+                    srcset="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-ipad-nav-202210?wid=200&amp;hei=130&amp;fmt=png-alpha&amp;.v=1664912135437, https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-ipad-nav-202210?wid=400&amp;hei=260&amp;fmt=png-alpha&amp;.v=1664912135437 2x">
+
+                <img width="130" height="100" alt=""
+                    src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-watch-nav-202209?wid=400&amp;hei=260&amp;fmt=png-alpha&amp;.v=1661796454103"
+                    srcset="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-watch-nav-202209?wid=200&amp;hei=130&amp;fmt=png-alpha&amp;.v=1661796454103, https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-watch-nav-202209?wid=400&amp;hei=260&amp;fmt=png-alpha&amp;.v=1661796454103 2x">
+                <img width="130" height="100" alt=""
+                    src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-airpods-nav-202209?wid=400&amp;hei=260&amp;fmt=png-alpha&amp;.v=1660676485885"
+                    srcset="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-airpods-nav-202209?wid=200&amp;hei=130&amp;fmt=png-alpha&amp;.v=1660676485885, https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-airpods-nav-202209?wid=400&amp;hei=260&amp;fmt=png-alpha&amp;.v=1660676485885 2x">
+                <img width="130" height="100" alt=""
+                    src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-airtags-nav-202108?wid=400&amp;hei=260&amp;fmt=png-alpha&amp;.v=1625783380000"
+                    srcset="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-airtags-nav-202108?wid=200&amp;hei=130&amp;fmt=png-alpha&amp;.v=1625783380000, https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-airtags-nav-202108?wid=400&amp;hei=260&amp;fmt=png-alpha&amp;.v=1625783380000 2x">
+                <img width="130" height="100" alt=""
+                    src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-appletv-nav-202210?wid=400&amp;hei=260&amp;fmt=png-alpha&amp;.v=1664628458484"
+                    srcset="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-appletv-nav-202210?wid=200&amp;hei=130&amp;fmt=png-alpha&amp;.v=1664628458484, https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-appletv-nav-202210?wid=400&amp;hei=260&amp;fmt=png-alpha&amp;.v=1664628458484 2x">
+
+                <img width="130" height="100" alt=""
+                    src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-homepod-nav-202301?wid=400&amp;hei=260&amp;fmt=png-alpha&amp;.v=1670389216654"
+                    srcset="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-homepod-nav-202301?wid=200&amp;hei=130&amp;fmt=png-alpha&amp;.v=1670389216654, https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-homepod-nav-202301?wid=400&amp;hei=260&amp;fmt=png-alpha&amp;.v=1670389216654 2x">
+                <img width="130" height="100" alt=""
+                    src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-accessories-nav-202209?wid=400&amp;hei=260&amp;fmt=png-alpha&amp;.v=1660677092974"
+                    srcset="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-accessories-nav-202209?wid=200&amp;hei=130&amp;fmt=png-alpha&amp;.v=1660677092974, https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-accessories-nav-202209?wid=400&amp;hei=260&amp;fmt=png-alpha&amp;.v=1660677092974 2x">
+                <img width="130" height="100" alt=""
+                    src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-holiday-giftcards-asit-agc-nav-202111?wid=400&amp;hei=260&amp;fmt=png-alpha&amp;.v=1653339351054"
+                    srcset="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-holiday-giftcards-asit-agc-nav-202111?wid=200&amp;hei=130&amp;fmt=png-alpha&amp;.v=1653339351054, https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-holiday-giftcards-asit-agc-nav-202111?wid=400&amp;hei=260&amp;fmt=png-alpha&amp;.v=1653339351054 2x">
+
+            </div>
+
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+
+
+
+
+
+    <!-- cards -->
+<br><br><br><br>
+    <div class="heading">
+        <h1 class="black">The Latest. </h1>
+        <p class="grey">Take a look at what new now <br>
+
+    </div>
+    <br><br><br>
+    <div id="carouselExample" class="carousel carasoul-dark slide">
+      <div class="carousel-inner">
+          <div class="carousel-item3 active">
+    <h3 class="hi">BLACK UNITY BAND</h3>
+    <h3 class="ho">IPhone14</h3>
+    <h3 class="he">Macbook Pro 14</h3>
+              <img class="bro" width="450" height="600" alt=""
+              src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-watch-bhm-202301?wid=800&amp;hei=1000&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1673544485285" srcset="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-watch-bhm-202301?wid=400&amp;hei=500&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1673544485285, https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-watch-bhm-202301?wid=800&amp;hei=1000&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1673544485285 2x" class="rf-ccard-img-full" class="d-block w-100" alt="...">
+              
+              <img class="bro" width="450" height="600" alt=""src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-macbook-pro-202301?wid=800&amp;hei=1000&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1671578693545" srcset="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-macbook-pro-202301?wid=400&amp;hei=500&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1671578693545, https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-macbook-pro-202301?wid=800&amp;hei=1000&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1671578693545 2x" class="rf-ccard-img-full" class="d-block w-100" alt="...">
+            
+              <img class="bro" width="450" height="600" src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-iphone-14-202209_GEO_US?wid=800&amp;hei=1000&amp;fmt=jpeg&amp;qlt=95&amp;.v=1661890731674" srcset="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-iphone-14-202209_GEO_US?wid=400&amp;hei=500&amp;fmt=jpeg&amp;qlt=95&amp;.v=1661890731674, https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-iphone-14-202209_GEO_US?wid=800&amp;hei=1000&amp;fmt=jpeg&amp;qlt=95&amp;.v=1661890731674 2x" class="rf-ccard-img-full"class="d-block w-100" alt="...">
+    
+           
+            
+    
+    
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    
+
+
+
+
+
+
+      <!-- cards2 -->
+      <br>
+      <br><br>
+
+      <div class="heading">
+        <h1 class="black">The Accesories. </h1>
+        <p class="grey">Take a look at what's new now <br>
+
+    </div>
+
+
+<br><br><br>
+
+    <div id="carouselExample" class="carousel carousel-dark slide ">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+           <div class="cards-wrapper ">
+          
+<div class="card" >
+  <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MME73?wid=400&amp;hei=400&amp;fmt=jpeg&amp;qlt=90&amp;.v=1632861342000" srcset="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MME73?wid=200&amp;hei=200&amp;fmt=jpeg&amp;qlt=95&amp;.v=1632861342000, https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MME73?wid=400&amp;hei=400&amp;fmt=jpeg&amp;qlt=90&amp;.v=1632861342000 2x" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">AirPods</h5>
+    <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dolorum ab!</p>
+    <a href="#" class="btn btn-primary">$59.00</a>
+  </div>
+</div>
+<div class="card" >
+    <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MPU63?wid=400&amp;hei=400&amp;fmt=jpeg&amp;qlt=90&amp;.v=1661471392701" srcset="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MPU63?wid=200&amp;hei=200&amp;fmt=jpeg&amp;qlt=95&amp;.v=1661471392701, https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MPU63?wid=400&amp;hei=400&amp;fmt=jpeg&amp;qlt=90&amp;.v=1661471392701 2x" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">iPhone 14 Pro</h5>
+    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dolorum ab</p>
+    <a href="#" class="btn btn-primary">$49.00</a>
+  </div>
+</div>
+<div class="card" >
+    <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MPRY3?wid=400&amp;hei=400&amp;fmt=jpeg&amp;qlt=90&amp;.v=1666123999266" srcset="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MPRY3?wid=200&amp;hei=200&amp;fmt=jpeg&amp;qlt=95&amp;.v=1666123999266, https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MPRY3?wid=400&amp;hei=400&amp;fmt=jpeg&amp;qlt=90&amp;.v=1666123999266 2x" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">iPhone 14 Pro</h5>
+    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dolorum ab</p>
+    <a href="#" class="btn btn-primary">$60.00</a>
+  </div>
+</div>
+<div class="card" >
+    <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MQDT3?wid=400&amp;hei=400&amp;fmt=jpeg&amp;qlt=90&amp;.v=1664481896795" srcset="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MQDT3?wid=200&amp;hei=200&amp;fmt=jpeg&amp;qlt=95&amp;.v=1664481896795, https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MQDT3?wid=400&amp;hei=400&amp;fmt=jpeg&amp;qlt=90&amp;.v=1664481896795 2x"  class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Smart Folio for iPad</h5>
+    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dolorum ab!</p>
+    <a href="#" class="btn btn-primary">$40.00</a>
+  </div>
+</div>
+<div class="card" >
+    <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MPU63?wid=400&amp;hei=400&amp;fmt=jpeg&amp;qlt=90&amp;.v=1661471392701" srcset="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MPU63?wid=200&amp;hei=200&amp;fmt=jpeg&amp;qlt=95&amp;.v=1661471392701, https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MPU63?wid=400&amp;hei=400&amp;fmt=jpeg&amp;qlt=90&amp;.v=1661471392701 2x" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">AirTag 4 pack</h5>
+    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dolorum ab</p>
+    <a href="#" class="btn btn-primary">$80.00</a>
+  </div>
+</div>
+<div class="card" >
+    <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airtag-4pack-select-202104?wid=400&amp;hei=400&amp;fmt=jpeg&amp;qlt=90&amp;.v=1617761669000" srcset="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airtag-4pack-select-202104?wid=200&amp;hei=200&amp;fmt=jpeg&amp;qlt=95&amp;.v=1617761669000, https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airtag-4pack-select-202104?wid=400&amp;hei=400&amp;fmt=jpeg&amp;qlt=90&amp;.v=1617761669000 2x" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">45mm Black Unity Sport Loop</h5>
+    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dolorum ab!.</p>
+    <a href="#" class="btn btn-primary">$30.00</a>
+  </div>
+</div>
+<div class="card" >
+    <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MQTJ3?wid=400&amp;hei=400&amp;fmt=jpeg&amp;qlt=90&amp;.v=1673374526158" srcset="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MQTJ3?wid=200&amp;hei=200&amp;fmt=jpeg&amp;qlt=95&amp;.v=1673374526158, https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MQTJ3?wid=400&amp;hei=400&amp;fmt=jpeg&amp;qlt=90&amp;.v=1673374526158 2x" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dolorum ab!</p>
+    <a href="#" class="btn btn-primary">$35.00</a>
+  </div>
+</div>
+        
+ 
+           </div> 
+          </div>
+          <div class="carousel-item">
+            <div class="cards-wrapper">
+            <div class="card">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+<div class="card" >
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+<div class="card" >
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+
+
+
+
+
+
+<!-- cards3 -->
+
+      <br>
+      <br><br>
+
+      <div class="heading">
+        <h1 class="black">Help is here. </h1>
+        <p class="grey">Whenever and how ever you need it.<br>
+
+    </div>
+
+
+<br><br><br>
+<div class="container-fluid">
+   <a href=""><div class="container-uncle">
+    
+    <h3>Shop one on one with a specialist.  <br> Online or in a store.</h3>
+    <img  width="480" height="500" alt="" src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-50-specialist-help-202211?wid=960&amp;hei=1000&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1674262573026" srcset="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-50-specialist-help-202211?wid=480&amp;hei=500&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1674262573026, https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-50-specialist-help-202211?wid=960&amp;hei=1000&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1674262573026 2x" class="rf-ccard-img-full"alt="">
+  </a>
+  </div>
+  <a href=""><div class="card-flower">
+  <h4>Get to know your device with free personal session</h4>
+  <img width="480" height="240" alt="" src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-25-apps-202108?wid=960&amp;hei=480&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1626223748000" srcset="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-25-apps-202108?wid=480&amp;hei=240&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1626223748000, https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-25-apps-202108?wid=960&amp;hei=480&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1626223748000 2x" class="rf-ccard-img-full">
+</a></div>
+<a href=""></a><div class="third">
+  <h4>Get expert services and  <br> support at genius bar. </h4>
+  <img width="480" height="240" alt="" src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-25-genius-202108?wid=960&amp;hei=480&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1626384443000" srcset="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-25-genius-202108?wid=480&amp;hei=240&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1626384443000, https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-25-genius-202108?wid=960&amp;hei=480&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1626384443000 2x" class="rf-ccard-img-full">
+
+</a></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="heading">
+  <h1 class="black">The Apple Experience. </h1>
+  <p class="grey">Do more with Apple Products.<br>
+
+</div>
+<br>
+<br>
+
+<div class="container-fluid">
+
+  <div class="over">
+    <div class="second">
+      <h4>Six Apple services</h4>
+      <img width="480" height="500" alt="" src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-50-subscriptions-202108_GEO_US?wid=960&amp;hei=1000&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1626375546000" srcset="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-50-subscriptions-202108_GEO_US?wid=480&amp;hei=500&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1626375546000, https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-50-subscriptions-202108_GEO_US?wid=960&amp;hei=1000&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1626375546000 2x" class="rf-ccard-img-full">
+    </div>
+    <div class="second">
+      <h4>We have got you covered</h4>
+      <img width="480" height="500" alt="" src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-applecare-202301?wid=778&amp;hei=810&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1672770914413" srcset="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-applecare-202301?wid=389&amp;hei=405&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1672770914413, https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-applecare-202301?wid=778&amp;hei=810&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1672770914413 2x" class="rf-ccard-img-full">
+    </div>
+<div></div>
+  </div>
+
+
+
+
+</div>
+
+<br>
+<br>
+<div class="heading">
+  <h1 class="black">Special Stores. </h1>
+  <p class="grey">Exclusive savings.<br>
+
+</div>
+<br>
+<br><br>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <h3 class="vi">Save on Mac or <br> Ipad with education <br> pricing.</h3>
+    <h3 class="vo">From enterprise to <br> small business,we'll <br> work with you</h3>
+    <h3 class="vu">Special pricing is <br> available for state agencies.</h3>
+    <div class="card2 h-100 ">
+       <img class="broo" width="550" height="550" alt="" src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-edu-202301?wid=400&amp;hei=500&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1670866608869" srcset="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-edu-202301?wid=200&amp;hei=250&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1670866608869, https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-edu-202301?wid=400&amp;hei=500&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1670866608869 2x" class="rf-ccard-img-full"class="card-img-top" alt="Skyscrapers"/>
+      <div class="card-body">
+        <h5 class="card-title">EDUCATION</h5>
+       
+      </div>
+      <div class="card-footer">
+     
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card2 h-100">
+      <img class="broo" width="550" height="550" alt="" src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-business-202209?wid=800&amp;hei=1000&amp;fmt=jpeg&amp;qlt=90&amp;.v=1660927783133" srcset="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-business-202209?wid=400&amp;hei=500&amp;fmt=jpeg&amp;qlt=95&amp;.v=1660927783133, https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-business-202209?wid=800&amp;hei=1000&amp;fmt=jpeg&amp;qlt=90&amp;.v=1660927783133 2x" class="rf-ccard-img-full" class="card-img-top" alt="Los Angeles Skyscrapers"/>
+      <div class="card-body">
+        <h5 class="card-title">BUSINESS</h5>
+        
+      </div>
+      <div class="card-footer">
+        
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card2 h-100">
+      <img class="broo" width="550" height="550" alt="" src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-gov-202301?wid=800&amp;hei=1000&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1670437406729" srcset="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-gov-202301?wid=400&amp;hei=500&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1670437406729, https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-gov-202301?wid=800&amp;hei=1000&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1670437406729 2x" class="rf-ccard-img-full" class="card-img-top" alt="Palm Springs Road"/>
+      <div class="card-body">
+        <h5 class="card-title">GOVERNMENT</h5>
+       
+      </div>
+      <div class="card-footer">
+   
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- extra
+
+
+
+-->
+
+
+
+<br><br>
+<div class="heading">
+  <h1 class="black">Loud And Clear </h1>
+  <p class="grey">Unparallelled Choices.<br>
+
+</div>
+<br>
+<br>
+<div id="carouselExample" class="carousel carasoul-dark slide">
+  <div class="carousel-inner">
+      <div class="carousel-item3 active">
+<h3>Get 6 months of <br>Apple music free. </h3>
+<img width="400" height="550" alt="" src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-applemusic-202301?wid=800&amp;hei=1000&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1670389217380" srcset="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-applemusic-202301?wid=400&amp;hei=500&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1670389217380, https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-applemusic-202301?wid=800&amp;hei=1000&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1670389217380 2x" class="rf-ccard-img-full"> 
+       
+<img width="400" height="400" alt="" src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/homepod-select-midnight-202210?wid=400&amp;hei=400&amp;fmt=jpeg&amp;qlt=90&amp;.v=1670557210097" srcset="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/homepod-select-midnight-202210?wid=200&amp;hei=200&amp;fmt=jpeg&amp;qlt=95&amp;.v=1670557210097, https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/homepod-select-midnight-202210?wid=400&amp;hei=400&amp;fmt=jpeg&amp;qlt=90&amp;.v=1670557210097 2x">
+<img width="400" height="400" alt="" src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MQD83?wid=400&amp;hei=400&amp;fmt=jpeg&amp;qlt=90&amp;.v=1660803972361" srcset="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MQD83?wid=200&amp;hei=200&amp;fmt=jpeg&amp;qlt=95&amp;.v=1660803972361, https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MQD83?wid=400&amp;hei=400&amp;fmt=jpeg&amp;qlt=90&amp;.v=1660803972361 2x">
+       
+        
+
+
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<div class="heading">
+ 
+  <p class="grey">Quick Links.<br>
+
+</div>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<button  type="button" class="btn btn-secondary">Order Status</button>&nbsp;&nbsp;
+<button type="button" class="btn btn-secondary">Shopping Help</button> &nbsp;&nbsp;
+<button type="button" class="btn btn-secondary">Returns</button>&nbsp;&nbsp;
+<button type="button" class="btn btn-secondary">Your Saves</button>
+<br>
+
+          
+
+
+
+
+
+
+
+              
+
+
+
+
+
+  
+    <p style="color: rgba(0, 0, 0, 0.315) ;font-size: 15px;margin-left: 380px;" > Pricing for iPhone 14 and iPhone 14 Plus includes a $30 connectivity discount that requires activation with AT&amp;T, T-Mobile, Sprint, or Verizon. Available to qualified customers and requires 24-month installment loan when you select Citizens One or Apple Card Monthly Installments (ACMI) as payment type at checkout at Apple. <br> iPhone activation required with AT&amp;T, T-Mobile, Sprint, or Verizon for purchases made with ACMI at an Apple Store. Subject to credit approval and credit limit. Taxes and shipping are not included in ACMI and are subject to your card’s variable APR. Additional Apple Card Monthly Installments terms are in the <a href="https://www.goldmansachs.com/terms-and-conditions/Apple-Card-Customer-Agreement.pdf" data-slot-name="footnotesText" data-feature-name="Astro Link" data-display-name="AOS: www.goldmansachs.com/terms-and-conditions/Apple-Card-Customer-Agreement.pdf" target="_blank">Apple Card Customer Agreement</a>. Additional iPhone Payments terms are in the <a href="https://www.apple.com/legal/sales-support/iphoneinstallments_us" data-slot-name="footnotesText" data-feature-name="Astro Link" data-display-name="AOS: www.apple.com/legal/sales-support/iphoneinstallments_us" target="_blank"><br>iPhone Payments Terms and Conditions</a>. ACMI is not available for purchases made online at special storefronts. <br>The last month’s payment for each product will be the product’s purchase price, less all other payments at the monthly payment amount.pple Card Monthly Installments (ACMI) is a 0% APR payment option available only in the U.S. to select at checkout for certain Apple products purchased at Apple Store locations, <a href="https://www.apple.com/" target="_blank">apple.com<span class="a11y"> (Opens in a new window)</span></a>, the Apple Store app, or by calling 1-800-MY-APPLE, and is subject to credit approval and credit limit. See <a href="https://support.apple.com/kb/HT211204" target="_blank">https://support.apple.com/kb/HT211204<span class="a11y"> (Opens in a new window)</span></a> for more information about eligible products.<br> Variable APRs for Apple Card other than ACMI range from 15.24% to 26.24% based on creditworthiness.<br> Rates as of January&nbsp;1,&nbsp;2023.<br> If you choose the pay-in-full or one-time-payment option for an ACMI-eligible purchase instead of choosing ACMI as the payment option at checkout, that purchase will be subject to the variable APR assigned to your Apple Card. Taxes and shipping are not included in ACMI and are subject to your card’s variable APR.<br> See the <a href="https://www.goldmansachs.com/terms-and-conditions/Apple-Card-Customer-Agreement.pdf" target="_blank">Apple Card Customer Agreement<span class="a11y"> (Opens in a new window)</span></a> for more information. <br>ACMI is not available for purchases made online at the following special stores: Apple Employee Purchase Plan; participating corporate Employee Purchase Programs; Apple at Work for small businesses; Government, and Veterans and Military Purchase Programs, or on refurbished devices.<br> iPhone activation required on iPhone purchases made at an Apple Store with one of these national carriers: AT&amp;T, Verizon, Sprint, or T-Mobile.</p>
+
+
+
+              
+        
+  </div>
+</div>
+
+
+
+  <!-- Copyright -->
+  <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2023 Copyright:
+    <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+
+
